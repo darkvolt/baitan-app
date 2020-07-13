@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/lojjo" />
+
+    <Button
+        android:id="@+id/tcdl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="退出登录" />
+
+    <Button
+        android:id="@+id/wdpj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tcdl1"
+        android:layout_alignLeft="@+id/tcdl1"
+        android:text="我的评价" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="欢迎使用闲淘：摊主端"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/spgl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wdpj"
+        android:layout_alignLeft="@+id/wdpj"
+        android:text="商品管理" />
+
+    <Button
+        android:id="@+id/twtg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spgl"
+        android:layout_alignLeft="@+id/spgl"
+        android:text="个人信息" />
+
+    <Button
+        android:id="@+id/wybt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twtg"
+        android:layout_alignLeft="@+id/twtg"
+        android:text="我要摆摊" />
+
+</RelativeLayout>

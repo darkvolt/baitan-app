@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/lojjo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="40dp"
+        android:text="欢迎来到闲淘：顾客端"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/tcdl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="退出登录" />
+
+    <Button
+        android:id="@+id/twpj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tcdl2"
+        android:layout_centerHorizontal="true"
+        android:text="摊位评价" />
+
+    <Button
+        android:id="@+id/xgmm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/twpj"
+        android:layout_alignRight="@+id/imageView1"
+        android:text="修改密码" />
+
+    <Button
+        android:id="@+id/spss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/xgmm2"
+        android:layout_alignLeft="@+id/xgmm2"
+        android:text="商品搜索" />
+
+    <Button
+        android:id="@+id/fjdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spss"
+        android:layout_alignLeft="@+id/spss"
+        android:text="附近的摊" />
+
+</RelativeLayout>
